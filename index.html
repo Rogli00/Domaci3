@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Domaci</title>
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+
+</style>
+</head>
+<body class = "telo">
+<h1 class = Naslov>SLOVA</h1>
+<button class = "Boja">Boja</button>
+<button calss = "Tekst">Tekst</button>
+</body>
+<script>
+  $('.Boja').click(function(){
+    $('.Naslov').css('color', "green")
+});
+  $('.Tekst').click(function(){
+    $.get("nesto.php", function(data){
+      $('h4').html('<h4>'+data+'</h4>');
+  });
+});
+  
+  </script>
+</html>

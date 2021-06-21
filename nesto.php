@@ -1,0 +1,1 @@
+<?php echo "Kraj '<br>' tresu se radnici kad god udjem u maxi "; ?>
